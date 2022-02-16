@@ -1,7 +1,8 @@
 ## Documentations
 
-- [Guide d'installation et configuration de Georivière-admin](https://georiviere.readthedocs.io/en/stable/) 🇬🇧
+- [Guide d'installation et configuration de Georivière-admin, guide utilisateur](https://georiviere.readthedocs.io/en/stable/)
 - [Dépôt et échanges techniques](https://github.com/Georiviere/Georiviere-admin)
+- [Politique de marque](https://github.com/Georiviere/Georiviere-admin/blob/master/docs/Georiviere-politiquemarque--1.0.pdf)
 
 ## Présentations
 
