@@ -1,0 +1,43 @@
+.actualites {
+
+  .header__content {
+    min-height: 250px;
+  }
+
+  &__breadcrumb {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+    h3 {
+      font-weight: normal;
+      margin: 0;
+    }
+  }
+
+  &__items {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .grid__item--actualite {
+    margin: 2em 0;
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.articles__item {
+  margin-bottom: 1em;
+  display: block;
+  text-decoration: none;
+
+  &__title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
