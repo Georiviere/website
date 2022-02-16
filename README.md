@@ -1,5 +1,5 @@
-# Geotrek-website
-Please gives us a visit at [http://geotrek.fr/](http://geotrek.fr/)
+# Georivière-website
+Please gives us a visit at [http://georiviere.fr/](http://georiviere.fr/)
 
 
 ## Publication
@@ -7,7 +7,7 @@ Please gives us a visit at [http://geotrek.fr/](http://geotrek.fr/)
 Pour toute nouvelle publication, il est important de [respécter une certaine nomenclature](#nommage-des-fichiers).
 
 Les articles se trouvent dans le dossier `_post`:  
-https://github.com/makinacorpus/Geotrek-website/tree/gh-pages/_posts
+https://github.com/*****/*****/tree/gh-pages/_posts
 
 ### Ajout / Modification dans l'interface github
 
@@ -36,10 +36,10 @@ Chaque article est précédé d'une entête appelé [Front matter](https://jekyl
 
 ```
 ---
-title: The National Parc of Cévennes and its new touristic platform
-date: 2016-02-01
+title: Nouveau déploiement de Géorivière
+date: 2022-02-01
 lang: en
-ref: post-20160201
+ref: post-20120201
 ---
 ```
 
