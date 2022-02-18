@@ -1,5 +1,5 @@
 ---
-title: "Géorivière mis à l'honneur sur le site Hubeau"
+title: "GeoRivière mis à l'honneur sur le site Hubeau"
 date: 2022-02-15
 lang: fr
 ref: post-20220215
