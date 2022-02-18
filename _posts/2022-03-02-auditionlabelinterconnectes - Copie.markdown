@@ -6,7 +6,7 @@ ref: post-20220203
 ---
 
 <h2>
-Géorivière sélectionnée au label Territoire Innovant 2022 des interconnectés ! 
+GeoRivière sélectionnée au label Territoire Innovant 2022 des interconnectés ! 
 </h2>
 
 <p>

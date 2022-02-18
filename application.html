@@ -1,0 +1,171 @@
+---
+layout: default
+title: Application
+class: application
+lang: fr
+ref: application
+---
+
+<header class="header header--application">
+    {% include navigation.html %}
+
+    <div class="header__content application__header">
+        <h1 class="page__title">Gérer & suivre <small>les cours d'eau de votre territoire</small></h1>
+        <div class="application__cards grid grid--center">
+            <div class="application__cards__item grid__item">
+                <img class="application__header__image" src="assets/img/connaissance.svg" alt="">
+                <h2 class="title application__header__title">Description Connaissance</h2>
+                <p class="application__header__desc">Structurer les observations terrain effectués par votre équipe pour mieux connaître et gérer les rivières de votre périmètre d’intervention</p>
+                <a href="#description" class="button button--medium button--orange">En savoir plus</a>
+            </div>
+            <div class="application__cards__item grid__item">
+                <img class="application__header__image" src="assets/img/monitoring.svg" alt="">
+                <h2 class="title application__header__title">Surveillance Monitoring</h2>
+                <p class="application__header__desc">Organiser et visualiser l’ensemble des données de suivi et de surveillance des cours d’eau et de leur bassin versant de votre territoire</p>
+                <a href="#surveillance" class="button button--medium button--turquoise">En savoir plus</a>
+            </div>
+            <div class="application__cards__item grid__item">
+                <img class="application__header__image" src="assets/img/intervention.svg" alt="">
+                <h2 class="title application__header__title">Planification intervention </h2>
+                <p class="application__header__desc">Organiser et planifier au mieux les actions d’entretien courant et de restauration des milieux aquatiques et partager les résultats</p>
+                <a href="#planification" class="button button--medium button--violet">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="application__section">
+    <a name="description"></a>
+    <header class="application__section__header">
+        <h2 class="title application__section__title">Description & Connaissance</h2>
+    </header>
+    <div class="grid application__content">
+        <div class="grid__item grid__item--70">
+            <img class="application__section__image" src="assets/img/georiviere1.gif" alt="">
+        </div>
+
+        <div class="grid__item grid__item--30">
+            <h4 class="title title--medium title--medium-orange">Modules qui proposent une visualisation des cours d'eau de votre territoire, leurs caractéristiques et répertorient les connaissances pour optimiser la gestion</h4>
+            <p>GeoRivière permet d'observer et suivre les linéaires de cours d’eau de votre terrioire. Grâce à ses fonctionnalités SIG, cette application métier structure de façon pertinente les données produites ou collectées par les gestionnaires. L’outil permet d'éditer et d'afficher des rivières, des bassins versants et toutes autres données essentielles avec une visualisation cartographique : périmètres administratifs, zonage environnementaux, zone humide, etc. </p>
+            <p>Chaque donnée renseignée dans l’outil est recoupée avec l’ensemble de la base de données. Ainsi, l'application propose notamment une vision exhaustive des données disponibles sur un cours d’eau. Des fichiers peuvent être chargés et liés à chaque élément de l’outil. </p>
+            <p>Cette solution web structure et bancarise toute la connaissance autour de la gestion des rivières sur le long terme et ainsi facilite le travail des gestionnaires au quotidien.   
+  	    </p>
+        </div>
+    </div>
+
+
+  <div class="grid grid--center">
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/stream.png" alt="">
+      <h4 class="home__intro__title title">Module cours d'eau</h4>
+      <p> Inventaire des cours d’eau et de leurs caractéristiques : longueur 2D et 3D, dénivelé, pente, altitude, source, etc. </p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/description.svg" alt="">
+      <h3 class="home__intro__title title">Module description </h3>
+      <p>Qualification de chaque portion de cours d’eau : morphologie, informations foncières, statut réglementaire ou inventaires, usages…</p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/connaissance2.svg" alt="">
+      <h3 class="home__intro__title title">Module connaissances </h3>
+      <p>Localisation des observations terrain qui ont un enjeu en terme de gestion : érosion des berges, ripisylve, embâcles, seuils, évolution de lit, frayères, atterrissement, pollutions, espèces invasives/patrimoniales, etc.</p>
+    </div>
+</section>
+
+<section class="application__section">
+    <a name="surveillance"></a>
+    <header class="application__section__header">
+        <h2 class="title application__section__title">Surveillance & Monitoring</h2>
+    </header>
+    <div class="grid application__content">
+        <div class="grid__item grid__item--70">
+            <img class="application__section__image" src="assets/img/georiviere3.gif" alt="">
+        </div>
+
+        <div class="grid__item grid__item--30">
+            <h4 class="title title--medium title--medium-turquoise">Modules pour organiser et visualiser l’ensemble des données de suivi et de surveillance des cours d’eau ainsi que des bassins versant de votre territoire</h4>
+            <p>Face aux nombreuses données de surveillance existantes, GeoRivière permet d’organiser et de structurer les études ou les stations de suivi pour faciliter l’accès à des informations spécifiques. Il est également possible de suivre les atteintes et les contentieux sur un territoire.</p>
+            <p>Grâce à GeoRivière disposez des données de surveillance de façon exhaustive. Aussi, l'outil s’interface avec d’autres bases de données pour de la consultation ou de l’échange.</p>
+            <p>Actuellement GeoRivière récupère quotidiennement les données des <a href="https://hubeau.eaufrance.fr/">APIs Hub’eau</a> (service de diffusion de données adossé aux banques nationales du SIE) pour afficher sur une carte vos stations de mesure : API température, API qualité et API hydrométrie.
+     	    </p>
+        </div>
+    </div>
+  <div class="grid grid--center">
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/etudes.svg" alt="">
+      <h4 class="home__intro__title title">Module Etudes</h4>
+      <p> Capitalisation et localisation  de l’ensemble des études avec possibilité de stocker les études sur l'outil </p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/stations.svg" alt="">
+      <h3 class="home__intro__title title">Module Stations </h3>
+      <p> Localisation de l’ensemble des stations de qualité et de quantité d’eau ainsi que les paramètres de suivis</p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/contentieux.png" alt="">
+      <h3 class="home__intro__title title">Module Contentieux </h3>
+      <p> Suivi des procédures d'atteintes ou de remise en état concernant les milieux aquatiques </p>
+    </div>
+
+</section>
+
+<section class="application__section">
+    <a name="planification"></a>
+    <header class="application__section__header">
+        <h2 class="title application__section__title">Planification & Intervention</h2>
+    </header>
+    <div class="grid application__content">
+        <div class="grid__item grid__item--70">
+            <img class="application__section__image" src="assets/img/georiviere7.gif" alt="">
+        </div>
+
+        <div class="grid__item grid__item--30">
+            <h4 class="title title--medium title--medium-violet">Modules pour organiser et planifier au mieux les actions d’entretien courant et de restauration des milieux aquatiques et partager les résultats </h4>
+            <p>A partir des connaissances (ouvrages, pollution, végétations, espèces invasives, inondations, etc.) le gestionnaire peut planifier des interventions.</p>
+            <p>Dans un même dossier administratif et financier, les institutions peuvent piloter plusieurs opérations en y inscrivant : prestataires, budgets, coûts matériels, coûts humains, etc. Cette fonctionnalité permet de rendre compte de la gestion, du suivi et des actions sur le territoire à l’aide d’exports sous différents formats (pdf, csv, geosjon).</p>
+  </div>
+    </div>
+
+
+  <div class="grid grid--center">
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/suivi.svg" alt="">
+      <h4 class="home__intro__title title">Module suivi</h4>
+      <p>Informations des suivis techniques avec intégration de photos : station d’espèces invasives, érosion de berge, etc. </p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/intervention2.svg" alt="">
+      <h3 class="home__intro__title title">Module interventions </h3>
+      <p>Planification et  suivi des interventions ou des travaux de gestion à effectuer : entretien courant, travaux d’ouvrage, restauration, etc.</p>
+    </div>
+    <div class="grid__item grid__item--33">
+      <img class="home__image" src="assets/img/administratif.svg" alt="">
+      <h3 class="home__intro__title title">Module administratif </h3>
+      <p>Suivi administratif et financier d’un groupement d’actions/ d’objets : répartition budgétaire, renseignement des coûts, suivi des consommations budgétaire, etc.</p>
+    </div>
+
+</section>
+
+
+<section class="open-source">
+    <h2 class="title title--light">Et d'autres évolutions en perspective ! </h2>
+    <div class="grid">
+        <div class="grid__item grid__item--33">
+            <h3 class="title title--medium">Un outil grand public</h3>
+            <p>Pour valoriser les cours d’eau et les actions réalisées et faire remonter par le grand public des alertes/atteintes (dépôt déchets, rejets/pollutions, érosion, espèces invasives…) sur les cours d’eau et sur les bassins versants auprès du service Grand Cycle de l’Eau. </p>
+        </div>
+        <div class="grid__item grid__item--33">
+            <h3 class="title title--medium">De nouvelles collaborations</h3>
+            <p>De nouvelles APIS devraient être intégrées dans l’outil : l’API Hydrobiologie pour compléter les données existantes et l’API Hydrométrie en mode élaborée pour obtenir les débits moyens journaliers et mensuels. Il est également envisager de s'interfaçer avec d'autres bases natioanles (ROE...)</p>
+        </div>
+        <div class="grid__item grid__item--33">
+            <h3 class="title title--medium">Enrichissement en continu</h3>
+            <p>Il est souhaité pouvoir améliorer et compléter les fonctionnalités de cette première version : outil de reporting, approfondissement du module administratif, saisie terrain faciltié pour certains modules... </p>
+        </div>
+    </div>
+</section>
+
+<section class="grid contact__banner">
+    <h3 class="contact__banner__text">Pour télécharger et installer librement l'outil : </h3>
+    <a href="https://github.com/Georiviere/Georiviere-admin" target="_blank" class="button"> C'est ici ! </a>
+</section>

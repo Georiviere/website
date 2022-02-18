@@ -1,6 +1,6 @@
 ## Documentations
 
-- [Guide d'installation et configuration de Georivière-admin, guide utilisateur](https://georiviere.readthedocs.io/en/stable/)
+- [Guide d'installation et configuration de GeoRivière-admin, guide utilisateur](https://georiviere.readthedocs.io/en/stable/)
 - [Dépôt et échanges techniques](https://github.com/Georiviere/Georiviere-admin)
 - [Politique de marque](https://github.com/Georiviere/Georiviere-admin/blob/master/docs/Georiviere-politiquemarque--1.0.pdf)
 
@@ -11,5 +11,5 @@
 
 ## Articles
 
-- [Présentation de géorivière par Makina Corpus](https://makina-corpus.com/georiviere)
-- [Utilisation des APIs HUBEAU par Géorivière](https://hubeau.eaufrance.fr/node/130)
+- [Présentation de GeoRivière par Makina Corpus](https://makina-corpus.com/georiviere)
+- [Utilisation des APIs HUBEAU par GeoRivière](https://hubeau.eaufrance.fr/node/130)

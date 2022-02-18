@@ -52,9 +52,9 @@ translate_menu:
     home:
       name: "Accueil"
       url: "index.html"
-    produit:
-      name: "Produit"
-      url: "produit.html"
+    application:
+      name: "Application"
+      url: "application.html"
     apropos:
       name: "À propos"
       url: "apropos.html"
