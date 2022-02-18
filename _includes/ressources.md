@@ -1,7 +1,8 @@
 ## Documentations
 
+- [Accès au code source de GéoRivière](https://github.com/Georiviere/Georiviere-admin)
 - [Guide d'installation et configuration de GeoRivière-admin, guide utilisateur](https://georiviere.readthedocs.io/en/stable/)
-- [Dépôt et échanges techniques](https://github.com/Georiviere/Georiviere-admin)
+- [Echanges techniques](https://github.com/Georiviere/Georiviere-admin/issues)
 - [Politique de marque](https://github.com/Georiviere/Georiviere-admin/blob/master/docs/Georiviere-politiquemarque--1.0.pdf)
 
 ## Présentations
