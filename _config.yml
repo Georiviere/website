@@ -22,9 +22,9 @@ excerpt_separator: <!--more-->
 
 translate_meta:
   fr:
-    title: Georivière, un outil pour suivre et gérer les cours d'eau
+    title: GeoRivière, un outil pour suivre et gérer les cours d'eau
     description: Suite logicielle webmapping composée d’un outil métier SIG
-    keywords: geotrek, SIG, logiciel gestion des cours d'eau, GEMAPI
+    keywords: GeoRivière, SIG, logiciel gestion des cours d'eau, GEMAPI
 
 # Build settings
 markdown: kramdown
