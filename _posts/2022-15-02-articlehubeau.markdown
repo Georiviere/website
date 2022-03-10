@@ -17,12 +17,12 @@ GeoRivière s’interface avec des APIs Hub’eau afin de mieux visualiser les s
 
     API Température des cours d’eau : localiser les stations et leurs caractéristiques
     API Qualité des cours d’eau : localiser les stations et les paramètres suivis
-    API Hydrométrie:nlocaliser les stations de mesure de débit et ses caractéristiques
+    API Hydrométrie : localiser les stations de mesure de débit et ses caractéristiques
 
 De nouvelles APIS devraient être intégrées dans l’outil : l’API Hydrobiologie pour compléter les données existantes et l’API Hydrométrie en mode élaborée pour obtenir les débits moyens journaliers et mensuels. 
 
 
-<a href="https://hubeau.eaufrance.fr/node/130">Lien vers le site sur l'utilisation de l'API par Géorivière</a>
+<a href="https://hubeau.eaufrance.fr/node/130">Lien vers le site sur l'utilisation de l'API par GeoRivière</a>
 <a href="https://hubeau.eaufrance.fr/">Lien vers Hubeau France</a>
  
 </p>
