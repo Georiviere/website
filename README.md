@@ -1,5 +1,5 @@
 # Georivière-website
-Please gives us a visit at [http://georiviere.fr/](http://georiviere.fr/)
+Please gives us a visit at [https://georiviere.fr/](http://georiviere.fr/)
 
 
 ## Publication
@@ -7,7 +7,7 @@ Please gives us a visit at [http://georiviere.fr/](http://georiviere.fr/)
 Pour toute nouvelle publication, il est important de [respécter une certaine nomenclature](#nommage-des-fichiers).
 
 Les articles se trouvent dans le dossier `_post`:  
-https://github.com/*****/*****/tree/gh-pages/_posts
+https://github.com/Georiviere/website/tree/main/_posts
 
 ### Ajout / Modification dans l'interface github
 
@@ -36,7 +36,7 @@ Chaque article est précédé d'une entête appelé [Front matter](https://jekyl
 
 ```
 ---
-title: Nouveau déploiement de Géorivière
+title: Nouveau déploiement de GeoRivière
 date: 2022-02-01
 lang: en
 ref: post-20120201
