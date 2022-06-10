@@ -9,6 +9,7 @@
 
 - [Geodatadays à Grenoble 16 et 17 septembre 2021](https://www.geodatadays.fr/_medias/afigeo/files/GDD_2021/presentations/Biodiversite/GEODATADAYS_2021-PNRHautJura_Magnin-Feysot.pdf)
 - [Audition au Label Territoire Innovant des Interconnectées 2022](https://territoire-innovant-2022.streamfizz.tv/cl2oc40nm95048mvisvsjegvv)
+- [Atelier Blue Hats 10/06/2022](https://makina-corpus.com/sites/default/files/2022-06/20220610_georiviere_etalab_PNRHautJura_Makinacorpus.pdf)
 
 ## Articles
 
