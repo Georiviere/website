@@ -5,6 +5,12 @@
 - [Echanges techniques](https://github.com/Georiviere/Georiviere-admin/issues)
 - [Politique de marque](https://github.com/Georiviere/Georiviere-admin/blob/master/docs/Georiviere-politiquemarque--1.0.pdf)
 
+## Démo
+- URL : [https://demo-admin.georiviere.fr/](https://demo-admin.georiviere.fr/)
+- Utilisateur : demo
+- MDP : georiviere
+
+
 ## Présentations
 
 - [Geodatadays à Grenoble 16 et 17 septembre 2021](https://www.geodatadays.fr/_medias/afigeo/files/GDD_2021/presentations/Biodiversite/GEODATADAYS_2021-PNRHautJura_Magnin-Feysot.pdf)
