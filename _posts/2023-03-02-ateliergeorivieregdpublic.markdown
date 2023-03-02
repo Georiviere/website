@@ -1,5 +1,5 @@
 ---
-title: "Label OR - Territoire Innovant 2022"
+title: "Vers un GeoRivière grand public !"
 date: 2023-02-20
 lang: fr
 ref: post-20222002
