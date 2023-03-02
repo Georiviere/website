@@ -1,6 +1,6 @@
 ---
 title: "Label OR - Territoire Innovant 2022"
-date: 2023-20-002
+date: 2023-20-02
 lang: fr
 ref: post-20222002
 ---
