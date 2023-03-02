@@ -10,7 +10,7 @@ Sentinelles des rivières, j’observe, je protège : Bientôt le top départ de
 </h2>
 
 <p>
-<img alt="©PNRHJ" src="https://georiviere.fr/assets/img/logo-fede-39.png " title="©PNRHJ"/>
+<img alt="©PNRHJ" src="https://georiviere.fr/assets/img/atelier.jpg" title="©PNRHJ"/>
 </p>
 <p>
 Rappel du principe : Devenez acteur de la construction d'une application (version grand public de Géorivière) via laquelle chaque habitant pourra noter ses observations sur les rivières du territoire. 
