@@ -44,4 +44,3 @@ Les données serviront aux équipes utilisant Georivière pour programmer des ch
 </p>
 
 <h3>Découvrez dès à présent la version utilisée par le Parc Naturel Régional du Haut Jura : <a href="https://georiviere.parc-haut-jura.fr/">georiviere.parc-haut-jura.fr</a></h3>
-</p>
