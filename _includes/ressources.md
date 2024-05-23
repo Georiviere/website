@@ -6,15 +6,16 @@
 - [Echanges techniques](https://github.com/Georiviere/Georiviere-admin/issues)
 - [Politique de marque](https://github.com/Georiviere/Georiviere-admin/blob/master/docs/Georiviere-politiquemarque--1.0.pdf)
 
-## Démo
+## Démos
 
 ### Georivière-Admin
 
-[https://demo-admin.georiviere.fr/](https://demo-admin.georiviere.fr/) (utilisateur : demo | mot de passe : georiviere)
+- [https://demo-admin.georiviere.fr/](https://demo-admin.georiviere.fr/) (utilisateur : demo | mot de passe : georiviere)
 
 ### Georivière-Public
 
-[https://georiviere.parc-haut-jura.fr/](https://georiviere.parc-haut-jura.fr/)
+- [https://georiviere.parc-haut-jura.fr/](https://georiviere.parc-haut-jura.fr/)
+- [https://adopteuncoursdeau.eau-grandsudouest.fr/](https://adopteuncoursdeau.eau-grandsudouest.fr/)
 
 ## Présentations
 
@@ -42,6 +43,7 @@
 - [Revue Eau Industrie Nuisances 14/04/2022](https://www.revue-ein.com/actualite/georiviere-l-application-de-suivi-et-de-gestion-des-cours-d-eau)
 - [Surveillez nos cours d’eau avec le site GéoRivière conçu par le Parc 27/05/2023](https://www.leprogres.fr/environnement/2023/05/27/surveillez-nos-cours-d-eau-avec-le-site-georiviere-concu-par-le-parc)
 - [Webinaire « Présentation de l’outil Géorivière, un outil de gestion et de suivi des cours d’eau »](https://atbvb.fr/webinaire-presentation-de-loutil-georiviere-un-outil-de-gestion-et-de-suivi-des-cours-deau/)
+- [GeoRivière, de nouvelles évolutions en perspective](https://makina-corpus.com/gestion-de-leau/georiviere-nouvelles-evolutions-perspective)
 
 ## Référencement
 

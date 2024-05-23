@@ -117,6 +117,12 @@ a {
         }
     }
 
+    &--medium-jaune {
+        &::before {
+            background: $jaune;
+        }
+    }
+
     &--medium-violet {
         &::before {
             background: $violet;

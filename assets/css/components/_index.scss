@@ -1,0 +1,62 @@
+.index {
+
+    &__header {
+        @include wrapper;
+        padding: 0 1.2rem;
+        position: relative;
+        z-index: 0;
+        justify-content: flex-start;
+
+        > * {
+            position: relative;
+            z-index: 3;
+        }
+
+        &__content {
+            margin-top: 10rem;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    &__baseline {
+        margin: 0 0 5rem 0;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__intro {
+
+        &__headline {
+            max-width: 800px;
+            text-align: center;
+            margin: 4rem auto;
+            padding: 2rem;
+            font-size: 2rem;
+
+            small {
+                padding-top: .5rem;
+                display: block;
+                line-height: 150%;
+                font-weight: 500;
+            }
+        }
+
+        &__title {
+            // font-size: 1.4rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__image {
+        height: 100px;
+        width: auto;
+    }
+
+}

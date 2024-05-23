@@ -1,22 +1,35 @@
 ---
 layout: default
 title: Accueil
-class: home
+class: index
 lang: fr
-ref: home
+ref: index
 ---
 <header class="header">
   {% include navigation.html %}
 
-  <div class="header__content home__header">
+  <div class="header__content index__header">
     <div class="home__header__content">
       <h1 class="sr-only">GeoRivière</h1>
       <img src="assets/img/logo_home.png" alt="GeoRivière logo">
       <h2 class="home__baseline">Gérez et suivez vos cours d'eau</h2>
-      <a href="application.html" class="button button--white">En savoir plus</a>
+              <div class="index__cards grid grid--center">
+            <div class="index__cards__item grid__item">
+                <img class="index__header__image" src="assets/img/management.svg" alt="">
+                <h2 class="title index__header__title">Logiciel métier</h2>
+                <a href="/application.html" class="button button--medium button--turquoise">En savoir plus</a>
+            </div>
+            <div class="index__cards__item grid__item">
+                <img class="index__header__image" src="assets/img/public-service.svg" alt="">
+                <h2 class="title index__header__title">Portail public</h2>
+                <a href="/portailpublic.html" class="button button--medium button--orange">En savoir plus</a>
+            </div>
+        </div>
     </div>
   </div>
 </header>
+
+
 
 <section class="home__intro">
   <h2 class="title home__intro__headline">Un outil métier  
