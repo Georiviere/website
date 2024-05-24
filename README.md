@@ -61,9 +61,16 @@ Nécéssite un environnement Ruby (cf [la doc de Jekyll](https://jekyllrb.com/do
 bundle install
 bundle exec jekyll serve
 ```
+#### Avec docker
 
+```
+docker pull jekyll/jekyll:4.2.2
+docker run -ti --rm -v .:/srv/jekyll jekyll/jekyll:4.2.2 jekyll build
+docker run -ti --rm --volume .:/srv/jekyll -p 4000:4000 jekyll/jekyll:4.2.2 jekyll serve
+```
 ### Publier sur gh-pages
 
 ```
 git push origin gh-pages
 ```
+<a href="https://territoires.makina-corpus.com/"><img src="https://geotrek.fr/assets/img/logo_makina.svg" alt="Logo MCT" width="125"></a>
