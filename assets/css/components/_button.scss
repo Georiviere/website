@@ -93,6 +93,18 @@
         }
     }
 
+    &--turquoise {
+        background: $turquoise;
+        border-color: $turquoise;
+        color: white;
+        &:hover, &:focus {
+            background-color: transparent;
+            border-color: $turquoise;
+            outline-color: $turquoise;
+            color: $turquoise;
+        }
+    }
+
     &--jaune {
         background: $jaune;
         border-color: $jaune;

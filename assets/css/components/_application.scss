@@ -22,6 +22,22 @@
                 flex-basis: 21%;
             }
         }
+
+        &__itemportail {
+            background: white;
+            margin: 0 1rem;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+
+            @include mq($sm) {
+                flex-basis: 40%;
+            }
+
+            @include mq($md) {
+                flex-basis: 30%;
+            }
+        }
     }
 
     &__header {
@@ -136,7 +152,7 @@
     }
 
     &__header {
-        padding: 2rem 0 0 0;
+        padding: 0rem 0 0 0;
 
 
         &__image {
