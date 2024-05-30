@@ -5,12 +5,12 @@
         <span class="menu__bar"></span>
     </a>
     <ul class="menu__liste">
-      <li><a href="{{ site.baseurl }}/index.html" title="Accueil" class="menu__liste__item--logo"><img src="{{ site.baseurl }}/assets/img/logo32_32.svg" alt="Georivière"></a></li>
+      <li><a href="{{ site.baseurl }}/index.html" title="Accueil" class="menu__liste__item--logo"><img src="{{ site.baseurl }}/assets/img/logo32_32.svg" alt="GeoRivière"></a></li>
          {% for menu in site.translate_menu[page.lang] %}
-      <li><a class="menu__liste__item {% if page.url == menu[1].url %}menu__liste__item--active{% endif %}" href="{{ site.baseurl }}/{{ menu[1].url }}" title="{{ menu[1].name }}">{{ menu[1].name }}</a></li>
+      <li><a class="menu__liste__item {% if page.name == menu[1].url %}menu__liste__item--active{% endif %}" href="{{ site.baseurl }}/{{ menu[1].url }}" title="{{ menu[1].name }}">{{ menu[1].name }}</a></li>
       {% endfor %}
 
-      {% assign currentpagelang=page.lang %}
+<!--       {% assign currentpagelang=page.lang %}
       {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
       {% for page in pages %}
       <li class="menu__lang">
@@ -20,6 +20,6 @@
         <a href="{{ page.url }}" class="menu__lang__item {{ page.lang }}">{{ page.lang }}</a>
         {% endif %}
       </li>
-      {% endfor %} 
+      {% endfor %}  -->
     </ul>
 </nav>

@@ -1,0 +1,119 @@
+.index {
+
+    &__header {
+        @include wrapper;
+        padding: 0 1.2rem;
+        position: relative;
+        z-index: 0;
+        justify-content: flex-start;
+
+        > * {
+            position: relative;
+            z-index: 3;
+        }
+
+        &__content {
+            margin-top: 10rem;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    &__baseline {
+        margin: 0 0 5rem 0;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__intro {
+
+        &__headline {
+            max-width: 800px;
+            text-align: center;
+            margin: 4rem auto;
+            padding: 2rem;
+            font-size: 2rem;
+
+            small {
+                padding-top: .5rem;
+                display: block;
+                line-height: 150%;
+                font-weight: 500;
+            }
+        }
+
+        &__title {
+            // font-size: 1.4rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__image {
+        height: 100px;
+        width: auto;
+    }
+
+}
+
+.grid {
+    @include wrapper;
+    overflow: hidden;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @include mq($sm) {
+        margin: 0rem auto;
+    }
+
+    &--center {
+        text-align: center;
+
+        @include mq($lg) {
+            padding: 0 6rem;
+        }
+    }
+
+    &__item {
+        flex: 0 0 100%;
+        padding: 1.2rem 0;
+
+        @include mq($sm) {
+            padding: 0 2rem;
+
+            &--100 {
+                flex-basis: 100%;
+            }
+
+            &--50 {
+                flex-basis: 50%;
+            }
+
+            &--33 {
+                flex-basis: 33%;
+            }
+
+            &--25 {
+                flex-basis: 25%;
+            }
+
+            &--70 {
+                flex-basis: 70%;
+            }
+
+            &--30 {
+                flex-basis: 30%;
+            }
+        }
+
+    }
+}
+

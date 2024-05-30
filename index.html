@@ -1,78 +1,83 @@
 ---
 layout: default
 title: Accueil
-class: home
+class: index
 lang: fr
-ref: home
+ref: index
 ---
 <header class="header">
   {% include navigation.html %}
-
-  <div class="header__content home__header">
+  <div class="header__content index__header">
     <div class="home__header__content">
       <h1 class="sr-only">GeoRivière</h1>
       <img src="assets/img/logo_home.png" alt="GeoRivière logo">
-      <h2 class="home__baseline">Gérez et suivez vos cours d'eau</h2>
-      <a href="application.html" class="button button--white">En savoir plus</a>
+      <h2 class="home__baseline">Un écosystème logiciel composé de deux briques</h2>
+      <div class="index__cards gridindex gridindex--center">
+        <div class="index__cards__item gridindex__item">
+          <img class="index__header__image" src="assets/img/management.svg" alt="">
+          <h3 class="title index__header__title">GeoRivière-Admin</h3>
+          <p>Le back-office pour les agents en charge de la GEMAPI</p>
+          <a href="/application.html" class="button button--medium button--blue-river">En savoir plus</a>
+        </div>
+        <div class="index__cards__item gridindex__item">
+          <img class="index__header__image" src="assets/img/public-service.svg" alt="">
+          <h3 class="title index__header__title">GeoRivière-public</h3>
+          <p>L'interface intuitive de sensibilisation et de participation citoyenne</p>
+          <a href="/portailpublic.html" class="button button--medium button--orange">En savoir plus</a>
+        </div>
+      </div>
     </div>
   </div>
 </header>
-
 <section class="home__intro">
-  <h2 class="title home__intro__headline">Un outil métier  
-    <small>pour le suivi et la gestion des milieux aquatiques</small>
+  <h2 class="title home__intro__headline">Un outil métier
+  <small>pour le suivi et la gestion des milieux aquatiques</small>
   </h2>
-  <div class="grid grid--center">
-    <div class="grid__item grid__item--33">
+  <div class="gridindex gridindex--center">
+    <div class="gridindex__item gridindex__item--33">
       <img class="home__image" src="assets/img/bd.png" alt="">
       <h3 class="home__intro__title title">Utilisation simplifiée</h3>
       <p>Composé d'un serveur et d'une base de données dédiée, cette application se veut générique et paramétrable dans l'objectif d'une utilisation par toutes autres collectivités titulaires de la compétence GEMAPI, intervenant dans des contextes hydrogéologiques différents. Son installation est simple et documentée. </p>
     </div>
-    <div class="grid__item grid__item--33">
+    <div class="gridindex__item gridindex__item--33">
       <img class="home__image" src="assets/img/websig.png" alt="">
       <h3 class="home__intro__title title">Application métier</h3>
       <p>Cette application métier, composé d'un outil cartographique, accompagne les utilisateurs dans leurs tâches courantes de gestion et de suivi des cours d'eau. Les différentes structures pourront ainsi partager et collaborer pour la préservation et la restauration des milieux aquatiques !</p>
     </div>
-    <div class="grid__item grid__item--33">
+    <div class="gridindex__item gridindex__item--33">
       <img class="home__image" src="assets/img/github.svg" alt="">
       <h3 class="home__intro__title title">Open source</h3>
       <p>Le choix volontaire d'utiliser des technologies Open Source et de libérer de 100% du code de développement permet à tout gestionnaire de rivière intéressé de télécharger, de déployer et de faire évoluer librement GeoRivière.  Le développement de nouvelles fonctionnalités seront accessibles à toute la « communauté d’utilisateurs ». </p>
     </div>
- </section>
-
-<section class="grid contact__banner">
+  </section>
+  <section class="gridindex contact__banner">
     <h3 class="contact__banner__text">Pour télécharger et installer librement l'outil : </h3>
     <a href="https://github.com/Georiviere/Georiviere-admin" target="_blank" class="button"> C'est ici ! </a>
-</section>
-
-
-<section class="actus">
-  <h2 class="title title--light">Toutes les actualités autour de GeoRivière</h2>
-
-  <div class="grid actus__items">
-    {% assign featured_posts = site.posts|where:"lang","fr" %} {% for post in featured_posts limit:3 %}
-    <div class="grid__item grid__item--33">
-      <h3 class="title title--medium">
-        <a href="{{ post.url }}" title="{{ post.title }}">
-          {{ post.title }}
-		  
-        </a>
-      </h3>
-      <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
-      {% if post.excerpt %}
-        {{ post.excerpt }}
-        <p class="more">
-          <a href="{{ post.url }}">En lire plus</a>
-        </p>
-      {% endif %}
-      {% if post.image %}
-      <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">
-      {% endif %}
+  </section>
+  <section class="actus">
+    <h2 class="title title--light">Toutes les actualités autour de GeoRivière</h2>
+    <div class="gridindex actus__items">
+      {% assign featured_posts = site.posts|where:"lang","fr" %} {% for post in featured_posts limit:3 %}
+        <div class="gridindex__item gridindex__item--33">
+          <h3 class="title title--medium">
+          <a href="{{ post.url }}" title="{{ post.title }}">
+            {{ post.title }}
+            
+          </a>
+          </h3>
+          <p class="subtitle">{% include date.html date=post.date %}{{ month }} {{ year }}</p>
+          {% if post.excerpt %}
+            {{ post.excerpt }}
+            <p class="more">
+              <a href="{{ post.url }}">En lire plus</a>
+            </p>
+          {% endif %}
+          {% if post.image %}
+            <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 100%; height: auto">
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
-  <a href="{{ site.baseurl }}/actualites.html" class="actus__link">Voir toutes les actualités</a>
-</section>
-
-
-{% include logos-parcs.html %}
+    <a href="{{ site.baseurl }}/actualites.html" class="actus__link">Voir toutes les actualités</a>
+  </section>
+  {% include logos-parcs.html %}

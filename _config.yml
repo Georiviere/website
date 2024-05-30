@@ -53,8 +53,11 @@ translate_menu:
       name: "Accueil"
       url: "index.html"
     application:
-      name: "Application"
+      name: "Logiciel métier"
       url: "application.html"
+    portailpublic:
+      name: "Portail public"
+      url: "portailpublic.html"
     apropos:
       name: "À propos"
       url: "apropos.html"
