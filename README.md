@@ -1,4 +1,4 @@
-# Georivière-website
+# GeoRivière-website
 Please gives us a visit at [https://georiviere.fr/](http://georiviere.fr/)
 
 

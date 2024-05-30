@@ -8,11 +8,11 @@
 
 ## Démos
 
-### Georivière-Admin
+### GeoRivière-Admin
 
 - [https://demo-admin.georiviere.fr/](https://demo-admin.georiviere.fr/) (utilisateur : demo | mot de passe : georiviere)
 
-### Georivière-Public
+### GeoRivière-Public
 
 - [https://georiviere.parc-haut-jura.fr/](https://georiviere.parc-haut-jura.fr/)
 - [https://adopteuncoursdeau.eau-grandsudouest.fr/](https://adopteuncoursdeau.eau-grandsudouest.fr/)
@@ -28,7 +28,7 @@
 
 - [Atelier Blue Hats 10/06/2022](https://www.dailymotion.com/video/x8bmpn1) et [article associé](https://code.gouv.fr/fr/bluehats/georiviere/)
 - [Pêche en ligne - ARRA² - 01/12/2022 - vidéo](https://www.youtube.com/watch?v=9ZqEtnzpEwI)
-- [Webinaire - Georivière et les possibilités d'exploitation des données SIG en lien avec la compétence GEMAPI - 28/03/2023](https://collaboratif.openig.org/index.php/s/o2GKHkCc3PqBNPK)
+- [Webinaire - GeoRivière et les possibilités d'exploitation des données SIG en lien avec la compétence GEMAPI - 28/03/2023](https://collaboratif.openig.org/index.php/s/o2GKHkCc3PqBNPK)
 
 ## Articles
 
